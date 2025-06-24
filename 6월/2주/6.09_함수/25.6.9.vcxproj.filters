@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{41a6571a-8716-4aa3-86c4-138de9053291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter2">
+      <UniqueIdentifier>{04786407-44f2-4cd7-b7cd-893fc9e63590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter3">
+      <UniqueIdentifier>{86209f38-46fa-4374-9c6c-1741c2841981}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main3.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main4.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main5.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main6.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main7.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main8.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main9.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main10.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="main11.cpp">
+      <Filter>소스 파일\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="main12.cpp">
+      <Filter>소스 파일\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="main13.cpp">
+      <Filter>소스 파일\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="main14.cpp">
+      <Filter>소스 파일\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="3_main.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3_main2.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3_main3.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3_main4.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_5.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_6.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_7.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_8.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_9.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3main_10.cpp">
+      <Filter>소스 파일\NewFilter3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
