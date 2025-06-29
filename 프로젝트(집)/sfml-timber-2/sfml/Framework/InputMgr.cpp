@@ -1,9 +1,9 @@
-#include <algorithm>
+#include "stdafx.h"
 #include "InputMgr.h"
 
 std::list<sf::Keyboard::Key> InputMgr::downKeys;
 std::list<sf::Keyboard::Key> InputMgr::heldKeys;
-std::list<sf::Keyboard::Key> InputMgr::upKeys;//벡터로 새로 만들기 푸시백 리무브 없이 
+std::list<sf::Keyboard::Key> InputMgr::upKeys;
 
 void InputMgr::Init()
 {

@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\$(MSBuildProjectName)-bin\</OutDir>
+    <OutDir>C:\Users\White\BackUp\프로젝트(집)\sfml-timber-2\sfml-timber-bin</OutDir>
     <TargetName>$(ProjectName)-d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -109,7 +109,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>SFML-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\White\BackUp\프로젝트(집)\sfml-timber-2\sfml\Framework;SFML-2.6.2\include;C:\Users\White\BackUp\프로젝트(집)\sfml-timber-2\sfml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,13 +138,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InputMgr.cpp" />
+    <ClCompile Include="Framework\GameObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Framework\InputMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene.cpp" />
+    <ClCompile Include="Framework\SpriteGo.cpp" />
+    <ClCompile Include="Framework\TextGo.cpp" />
+    <ClCompile Include="Framework\Utils.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SceneGame.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="InputMgr.h" />
-    <ClInclude Include="ResourseMgr.h" />
-    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Framework\Defines.h" />
+    <ClInclude Include="Framework\GameObject.h" />
+    <ClInclude Include="Framework\InputMgr.h" />
+    <ClInclude Include="Framework\ResourceMgr.h" />
+    <ClInclude Include="Framework\Scene.h" />
+    <ClInclude Include="Framework\Singleton.h" />
+    <ClInclude Include="Framework\SpriteGo.h" />
+    <ClInclude Include="Framework\TextGo.h" />
+    <ClInclude Include="Framework\Utils.h" />
+    <ClInclude Include="SceneGame.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
